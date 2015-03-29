@@ -1,0 +1,138 @@
+/* basic styles */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 12px/14px Georgia, "Times New Roman", Times, serif;
+    width: 590px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+
+
+h1 {
+    font: bold 34px/1em Georgia, "Times New Roman", Times, serif;
+    margin: 10px 0px;
+    color: #900;
+}
+
+h4 {
+    font: bold 14px/15px Georgia, "Times New Roman", Times, serif;
+    margin: 10px 0px;
+}
+
+p {
+    margin: 0px 0px 20px 0px;
+}
+
+
+/* form styles */
+
+form {
+    width: 420px;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+fieldset  {
+    margin: 0;
+    border: 0;
+    padding: 0px 0px 30px 0px;
+
+}
+
+#FieldSet1, #FieldSet2, #FieldSet3, #FieldSet4, #FieldSet5 {
+    padding-bottom: 30px;
+} 
+
+
+form label {
+    display: block;
+    width: 390px;
+    font-size: 12px;
+    line-height: 14px;
+    padding: 0px 0px 12px 0px;
+}
+
+form input {
+    display: block;
+    margin-top: 3px;
+}
+
+
+form select {
+    float: left;
+    display: block;
+}
+
+form label.field-first
+ {
+    clear: left;
+}
+
+
+form label.field-first,
+form label.field-last {
+    float: left;
+    margin: 0px 10px 0px 0px;
+    width: 150px;
+}
+
+form label.field-bylaw {
+    float: left;
+    margin: 13px 0px 0px 0px;
+    width: 150px;
+}
+
+form label.field-first input,
+form label.field-last input {
+    float: left;
+    width: 150px;
+    padding: 0px;
+}
+
+form label.field-dropdown {
+    float: left;
+    margin-right: 10px;
+    width: 150px;
+}
+
+form label.field-dropdown select {
+    width: 150px;
+    float: left;
+    margin-top: 3px;
+}
+
+form textarea {
+    margin-top: 30px;
+}
+
+.bylaw {
+    float: left;
+    margin: 0px 10px 0px 0px;
+    width: 150px;
+    display: block;
+    font-size: 12px;
+    line-height: 14px;
+    padding: 12px 0px 0px 0px;
+}
+
+.description {
+    float: left;
+    position: absolute;
+    top: 515px;
+    padding-top: 20px;
+}
+
+.left-button {
+    float: left;
+    padding: 5px;    
+}
+.right-button {
+    float: right;
+    padding: 5px;
+}
